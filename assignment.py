@@ -93,6 +93,7 @@ def arithmetic_ops(a, b):
        
     }
 
+
 def logical_ops(x, y):
     """
     Perform logical operations.
