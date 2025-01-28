@@ -55,7 +55,12 @@ def dict_operations(students_dict):
     Returns:
         list: Names of students with scores > 80
     """
-    return [name for name, score in students_dict.items() if score > 80]
+students = []
+for i in students_dict:
+    if students_dict[i] > 80:
+        students.append(i)
+return students
+    
 
 def set_operations(list1, list2):
     """
